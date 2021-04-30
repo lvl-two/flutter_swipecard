@@ -44,6 +44,7 @@ class _ExampleHomePageState extends State<ExampleHomePage>
           child: new TinderSwapCard(
             swipeUp: true,
             swipeDown: true,
+            disabled: true,
             orientation: AmassOrientation.bottom,
             totalNum: welcomeImages.length,
             stackNum: 3,
